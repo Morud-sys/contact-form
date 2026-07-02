@@ -1,0 +1,85 @@
+:root{
+    --text-style: roboto, sans-serif;
+    --primary-color: #f83bb0;
+    --secondary-color: #fdf0f8;
+    --box-shadow-color: rgba(0, 0, 0, 0.3);
+    --text-color: #fae1ef;
+
+    --text-size-md: 16px;
+    --text-size-lg: 24px;
+}
+
+body{
+    background-image: linear-gradient(to right, #110029, #f83bb0);
+}
+
+.container{
+      max-width: 500px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #110029;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px var(--box-shadow-color);
+}
+
+
+h2{
+    margin-top: 14px;
+    font-family: var(--text-style);
+    font-size: var(--text-size-lg);
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+h2::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color); 
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: var(--text-style);
+    font-size: var(--text-size-md);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea{
+    padding: 0.85rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 99px;
+    background-color: var(--box-shadow-color);
+    font-family: var(--text-style);
+    color: var(--text-color);
+}
+
+button[type="submit"]{
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: var(--text-style);
+    font-size: var(--text-size-md);
+}
+
