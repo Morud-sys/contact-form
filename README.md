@@ -1,6 +1,6 @@
 # 📬 Contact Form Component
 
-A modern, high-end contact form interface built with a deep violet and neon pink color palette. It features clean capsule-shaped text fields, custom short heading underlines, and automated email routing using Formspree.
+A modern, high-end contact form interface built with a deep violet and neon pink color palette. It features clean capsule-shaped text fields, custom short heading underlines, and automated email routing using Formspree
 
 ## ✨ Features
 
